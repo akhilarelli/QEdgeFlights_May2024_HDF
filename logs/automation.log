@@ -1,0 +1,8 @@
+15:50:06.588 [main] DEBUG testBase.BaseClass - application logs
+15:50:08.078 [main] INFO  testBase.BaseClass - Name entered
+15:50:08.203 [main] INFO  testBase.BaseClass - ContactNumber entered
+15:50:08.406 [main] INFO  testBase.BaseClass - Email entered
+15:50:08.522 [main] INFO  testBase.BaseClass - password entered
+15:50:08.710 [main] INFO  testBase.BaseClass - gender selected
+15:50:09.827 [main] INFO  testBase.BaseClass - date selected
+15:50:09.906 [main] INFO  testBase.BaseClass - agree checkbox clicked
