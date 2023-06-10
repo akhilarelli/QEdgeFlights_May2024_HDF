@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T09:10:23Z" name="Suite" finished-at="2023-06-08T09:10:33Z" duration-ms="9547">
+  <suite name="Suite" duration-ms="17698" started-at="2023-06-10T09:52:55Z" finished-at="2023-06-10T09:53:12Z">
     <groups>
       <group name="Master">
-        <method signature="TC_002_LoginTest.test_loginUser()[pri:0, instance:testCases.TC_002_LoginTest@712625fd]" name="test_loginUser" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_002_LoginTest.test_loginUser()[pri:0, instance:testCases.TC_002_LoginTest@d706f19]" name="test_loginUser" class="testCases.TC_002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC_002_LoginTest.test_loginUser()[pri:0, instance:testCases.TC_002_LoginTest@712625fd]" name="test_loginUser" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_002_LoginTest.test_loginUser()[pri:0, instance:testCases.TC_002_LoginTest@d706f19]" name="test_loginUser" class="testCases.TC_002_LoginTest"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-06-08T09:10:23Z" name="Test" finished-at="2023-06-08T09:10:33Z" duration-ms="9547">
+    <test name="Test" duration-ms="17698" started-at="2023-06-10T09:52:55Z" finished-at="2023-06-10T09:53:12Z">
       <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@712625fd]" started-at="2023-06-08T09:10:23Z" name="setup" finished-at="2023-06-08T09:10:29Z" duration-ms="5939" status="PASS">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@d706f19]" name="setup" is-config="true" duration-ms="12730" started-at="2023-06-10T09:52:55Z" finished-at="2023-06-10T09:53:08Z">
           <params>
             <param index="0">
               <value>
@@ -24,11 +24,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_loginUser()[pri:0, instance:testCases.TC_002_LoginTest@712625fd]" started-at="2023-06-08T09:10:29Z" name="test_loginUser" finished-at="2023-06-08T09:10:33Z" duration-ms="3118" status="PASS">
+        <test-method status="PASS" signature="test_loginUser()[pri:0, instance:testCases.TC_002_LoginTest@d706f19]" name="test_loginUser" duration-ms="4452" started-at="2023-06-10T09:53:08Z" finished-at="2023-06-10T09:53:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_loginUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@712625fd]" started-at="2023-06-08T09:10:33Z" name="tearDown" finished-at="2023-06-08T09:10:33Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@d706f19]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-06-10T09:53:12Z" finished-at="2023-06-10T09:53:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
